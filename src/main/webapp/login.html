@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Регистрация и вход</title>
+	<meta charset="UTF-8">
+</head>
+<body>
+	<h1>Вход</h1>
+	<form method="POST" action="ServletTest">
+		<input type="hidden" name="q" value="l">
+		<label for="email">Почта:</label><br>
+		<input type="text" id="email" name="email"><br>
+		<label for="login-password">Пароль:</label><br>
+		<input type="password" id="login-password" name="password"><br>
+		<input type="submit" value="Войти">
+	</form>
+	<button onclick="location.href='http://192.168.100.64:8080//WebApp/ServletTest?q=r'">Зарегистрироваться</button>
+</body>
+</html>
